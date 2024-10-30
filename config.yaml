@@ -1,0 +1,21 @@
+gateways:
+  local:
+    connection:
+      type: duckdb
+      database: db.db
+
+  postgres:
+    connection:
+      type: postgres
+      host: 44.218.65.251
+      port: 5432
+      user: admin
+      password: 52kbPQAZ0DkmrerLg1XS
+      database: TREVER_DB
+
+
+default_gateway: local
+
+model_defaults:
+  dialect: postgres
+  start: 2024-10-29
